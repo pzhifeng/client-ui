@@ -164,11 +164,11 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>CCLabelTTF</string>
+				<string>GateTitle</string>
 				<key>memberVarAssignmentName</key>
-				<string></string>
+				<string>gateTitle</string>
 				<key>memberVarAssignmentType</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>properties</key>
 				<array>
 					<dict>
@@ -296,7 +296,7 @@
 				<key>memberVarAssignmentName</key>
 				<string>homePve</string>
 				<key>memberVarAssignmentType</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>properties</key>
 				<array>
 					<dict>
@@ -369,7 +369,7 @@
 						<key>type</key>
 						<string>String</string>
 						<key>value</key>
-						<string>开始</string>
+						<string>开战</string>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -491,6 +491,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
@@ -588,8 +590,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
