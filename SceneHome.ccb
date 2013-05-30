@@ -634,8 +634,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
@@ -750,11 +748,11 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>CCSprite</string>
+				<string>HomeMap</string>
 				<key>memberVarAssignmentName</key>
-				<string></string>
+				<string>homeMap</string>
 				<key>memberVarAssignmentType</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>properties</key>
 				<array>
 					<dict>
@@ -843,9 +841,9 @@
 								<key>customClass</key>
 								<string></string>
 								<key>displayName</key>
-								<string>Home</string>
+								<string>MenuHome</string>
 								<key>memberVarAssignmentName</key>
-								<string>home</string>
+								<string>menuHome</string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
 								<key>properties</key>
@@ -909,7 +907,7 @@
 										<string>Block</string>
 										<key>value</key>
 										<array>
-											<string>onHome</string>
+											<string>onMenuHome</string>
 											<integer>1</integer>
 										</array>
 									</dict>
@@ -964,9 +962,9 @@
 								<key>customClass</key>
 								<string></string>
 								<key>displayName</key>
-								<string>Skill</string>
+								<string>MenuSkill</string>
 								<key>memberVarAssignmentName</key>
-								<string>skill</string>
+								<string>menuSkill</string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
 								<key>properties</key>
@@ -1030,7 +1028,7 @@
 										<string>Block</string>
 										<key>value</key>
 										<array>
-											<string>onSkill</string>
+											<string>onMenuSkill</string>
 											<integer>1</integer>
 										</array>
 									</dict>
@@ -1085,9 +1083,9 @@
 								<key>customClass</key>
 								<string></string>
 								<key>displayName</key>
-								<string>God</string>
+								<string>MenuGod</string>
 								<key>memberVarAssignmentName</key>
-								<string>god</string>
+								<string>menuGod</string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
 								<key>properties</key>
@@ -1151,7 +1149,7 @@
 										<string>Block</string>
 										<key>value</key>
 										<array>
-											<string>onGod</string>
+											<string>onMenuGod</string>
 											<integer>1</integer>
 										</array>
 									</dict>
@@ -1206,9 +1204,9 @@
 								<key>customClass</key>
 								<string></string>
 								<key>displayName</key>
-								<string>Coin</string>
+								<string>MenuCoin</string>
 								<key>memberVarAssignmentName</key>
-								<string>coin</string>
+								<string>menuCoin</string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
 								<key>properties</key>
@@ -1272,7 +1270,7 @@
 										<string>Block</string>
 										<key>value</key>
 										<array>
-											<string>onCoin</string>
+											<string>onMenuCoin</string>
 											<integer>1</integer>
 										</array>
 									</dict>
@@ -1327,9 +1325,9 @@
 								<key>customClass</key>
 								<string></string>
 								<key>displayName</key>
-								<string>Arena</string>
+								<string>MenuArena</string>
 								<key>memberVarAssignmentName</key>
-								<string>arena</string>
+								<string>menuArena</string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
 								<key>properties</key>
@@ -1393,7 +1391,7 @@
 										<string>Block</string>
 										<key>value</key>
 										<array>
-											<string>onArena</string>
+											<string>onMenuArena</string>
 											<integer>1</integer>
 										</array>
 									</dict>
@@ -1448,9 +1446,9 @@
 								<key>customClass</key>
 								<string></string>
 								<key>displayName</key>
-								<string>Store</string>
+								<string>MenuStore</string>
 								<key>memberVarAssignmentName</key>
-								<string>store</string>
+								<string>menuStore</string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
 								<key>properties</key>
@@ -1514,7 +1512,7 @@
 										<string>Block</string>
 										<key>value</key>
 										<array>
-											<string>onStore</string>
+											<string>onMenuStore</string>
 											<integer>1</integer>
 										</array>
 									</dict>
@@ -1817,8 +1815,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>159</real>
-									<real>21</real>
+									<real>105</real>
+									<real>26</real>
 									<integer>0</integer>
 								</array>
 							</dict>
@@ -1910,6 +1908,91 @@
 								<string>Sample Text</string>
 							</dict>
 						</array>
+					</dict>
+					<dict>
+						<key>baseClass</key>
+						<string>CCSprite</string>
+						<key>children</key>
+						<array/>
+						<key>customClass</key>
+						<string></string>
+						<key>displayName</key>
+						<string>ExpBg</string>
+						<key>memberVarAssignmentName</key>
+						<string>expBg</string>
+						<key>memberVarAssignmentType</key>
+						<integer>1</integer>
+						<key>properties</key>
+						<array>
+							<dict>
+								<key>name</key>
+								<string>position</string>
+								<key>type</key>
+								<string>Position</string>
+								<key>value</key>
+								<array>
+									<real>0.0</real>
+									<real>35</real>
+									<integer>2</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>anchorPoint</string>
+								<key>type</key>
+								<string>Point</string>
+								<key>value</key>
+								<array>
+									<real>1</real>
+									<real>0.0</real>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>scale</string>
+								<key>type</key>
+								<string>ScaleLock</string>
+								<key>value</key>
+								<array>
+									<real>1</real>
+									<real>1</real>
+									<false/>
+									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>ignoreAnchorPointForPosition</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>displayFrame</string>
+								<key>type</key>
+								<string>SpriteFrame</string>
+								<key>value</key>
+								<array>
+									<string></string>
+									<string>ui/exp-bg.png</string>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>blendFunc</string>
+								<key>type</key>
+								<string>Blendmode</string>
+								<key>value</key>
+								<array>
+									<integer>770</integer>
+									<integer>771</integer>
+								</array>
+							</dict>
+						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
@@ -2025,9 +2108,9 @@
 						<string>Color3</string>
 						<key>value</key>
 						<array>
-							<integer>19</integer>
-							<integer>0</integer>
-							<integer>255</integer>
+							<integer>178</integer>
+							<integer>251</integer>
+							<integer>175</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2037,9 +2120,9 @@
 						<string>Color3</string>
 						<key>value</key>
 						<array>
+							<integer>114</integer>
+							<integer>85</integer>
 							<integer>255</integer>
-							<integer>33</integer>
-							<integer>249</integer>
 						</array>
 					</dict>
 					<dict>
